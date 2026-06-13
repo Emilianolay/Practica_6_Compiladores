@@ -1,16 +1,13 @@
 Práctica 6 - Generador y Analizador de Tabla LL(1)
 
-Este repositorio contiene la solución completa a la Práctica 6 de Compiladores. El objetivo es el diseño e implementación de un conjunto de clases en Java para obtener la tabla LL(1) de una gramática libre del contexto sin recursión izquierda, así como analizar una cadena usando dicha tabla.
-
 --Descripción de la Gramática
 La gramática evaluada en esta práctica es la siguiente:
-```text
+
 S -> M(P)C
 M -> p s v m | s v m | v m
 P -> Str [ ] args
 C -> { D }
 D -> t id ;
-```
 
 Contenido del Repositorio
 El código está estructurado para la practica:
